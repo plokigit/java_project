@@ -37,9 +37,9 @@ public class Ex03 {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i].getName()+ ", " + arr[i].getSize());
 		}
-		System.out.println("===================");
-		(Type2 type2 : arr) {
-			System.out.println(k.getname() + " , " + k.getSize());
+		System.out.println("=============");
+		for (Type2 k : arr) {
+			System.out.println(k.getName()+", "+ k.getSize());
 		}
 		
 		// 개선된 for문 = foreach = forin : 배열이나 나중에 배울 컬렉션에서 주료 사용
